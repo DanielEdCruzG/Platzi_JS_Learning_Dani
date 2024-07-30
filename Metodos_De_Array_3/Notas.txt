@@ -1,0 +1,74 @@
+In this class we're gonna talk about
+the method concat(), the spread operator
+and the method join().
+
+-> concat()
+
+Joins tow arrays into a new one.
+
+-> A = [1, 2, 3, 4] -> B = [5, 6, 7, 8]
+-> concat_Method = [1, 2, 3, 4, 5, 6, 7, 8]
+
+-> spread operator
+
+Firts we create a function that recive the
+paremeters and later return the values but
+using the spread operator ([..."Parameter"])
+The 3 points are the spread operator and 
+function to expand the values of the array.
+
+-> A = [1, 2, 3, 4] -> B = [5, 6, 7, 8]
+
+-> function Join_Arrays(array_1, array_2)
+{
+    return [...array_1, ...array_2]
+}
+
+-> C = Join_Arrays(A, B)
+-> C = [1, 2, 3, 4, 5, 6, 7, 8]
+
+-> join()
+
+The join() method is use to join the values
+inside of an array.
+
+-> A = [1, 2, 3, 4]
+-> join_Method = 1234
+
+-> every()
+
+This method is used to know if all the 
+values a true based on a condition.
+
+-> Original -> [1, 2, 3, 4]
+-> every_Method -> false
+
+-> some()
+
+This method verify if almost one is 
+true based on the condition. 
+
+-> Original -> [1, 2, 3, 4]
+-> every_Method -> true
+
+-> includes()
+
+This method is used to verify 
+if a value is inside an array.
+This method returns false or tre.
+
+->Original -> [1, 2, 3, 4]
+-> includes_Method = true
+
+-> indexOf()
+
+This method return the index of an 
+element inside an array. If there's 
+no inside return -1.
+
+-> Original -> [1, 2, 3, 4]
+-> index_Of_Method = 2
+
+This method has a brother that make 
+almost the same but the difference is
+that picks the last index of.

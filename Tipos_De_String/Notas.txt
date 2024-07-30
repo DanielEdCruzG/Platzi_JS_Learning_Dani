@@ -1,0 +1,11 @@
+Existen 2 tipos de string: Primitivos u objetos.
+
+const stringprimitivo = 'Soy un string primitivo. '
+
+console.log (typeof stringprimitivo)
+
+const stringprimitivo_x2 = string('Soy un string primitivo...X2. ')
+
+console.log (typeof stringprimitivo_x2)
+
+Caracteristica de los strings primitivos: Si se desea cambiar el valor de un string primitivo el valor original no va a cambiar sino que se creara uno nuevo.

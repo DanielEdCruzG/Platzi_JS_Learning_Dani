@@ -1,0 +1,29 @@
+Vamos a ver la anatomía de una función:
+
+Palabra function -> Esto le dice al sistema
+que se esta creando una función.
+
+Nombre de la función: Generalmente va con la primera
+letra en mayuscula (Camelcase).
+
+Podemos hacer varias cosas con esta función:
+1. Callback = Usar una función como argumento.
+2. Return = Regresar el valor de una función
+3. Agregar una función a una variable.
+4. Anidar funciones.
+5. Agregarle a una función un método.
+
+Funciones Puras e impuras:
+
+Puras:
+1. Si la entrada es la misma la salida es la misma.
+2. No producen efectos secundarios. 
+Side efects:
+-> Modificar variables globales. Modificar Parámetros. 
+-> Solicitudes HTTP. Mensajes en pantalla.
+-> Obtener la hora. Modificar el DOM.
+
+Impuras:
+Lo contario a las puras.
+
+

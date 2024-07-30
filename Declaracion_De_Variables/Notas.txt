@@ -1,0 +1,33 @@
+Acá vemos como funcionan los distintos tipos de declaración 
+de variables y como funcionan las variables en si. Además
+de aclarar la formas adecuadas de declarar variables.
+
+Se realiza con el let. La declaración es let Caja_De_Andy
+                       y la asignación es = 'Woody';
+
+Aportes que encontre en los comentarios y me parecieron
+utiles:
+* Var: Tiene un ámbito de función (function scope). 
+Esto significa que la variable declarada con var 
+es accesible en cualquier lugar dentro de la función
+en la que fue declarada.
+
+*Let y Const: Una variable declarada con let o const
+solo es accesible dentro del bloque.
+Por ejemplo, dentro de un bucle for o una declaración
+ if, en el cual fue declarada.
+
+Var#1: Con var puedo realizar una redeclaración del valor
+de una variable. También puedo reasignar el valor de la
+variable.
+
+Let#1: Con let puedo declarar una variables o también 
+puedo reasignar el valor de dicha variable. Sin embargo,
+si intento redeclarar la variable se generará un error 
+en el código. Se utiliza para declarar algo que va a 
+cambiar con el tiempo.
+
+Const: Con const debo ser mucho más rígido pues como su
+nombre menciona es mayormente utilizada para declarar 
+variables con un valor constantes por eso mismo no 
+la puedo redeclarar o reasignar.

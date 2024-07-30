@@ -1,0 +1,8 @@
+Formas en las que se utilizara JavaScript:
+- Consola del navegador.
+- Etiqueta <Script> de HTML.
+- Archivos JS externos.
+- Node.JS.
+-------------------------------------------
+Vamos a utilizar las DEV tool del navegador.
+O podemos utilizar HTML.

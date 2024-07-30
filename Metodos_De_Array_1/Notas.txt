@@ -1,0 +1,14 @@
+En está clase vamos a utilizar 3 métodos de arrays:
+
+Splice: Que lo que hace es eliminar y agregar valores
+dependiendo del índice que se haya especificado.
+
+Reverse: Que lo que va a hacer es entregar los valores
+del array al revés.
+
+Sort: Ordena los strings de manera descendente pero si 
+se ingresan números como valor los transforma a string 
+y los organiza por su valor en unicode.
+
+Fill: Rellena un array con los valores introducidos de
+acuerdo a los índices especificados.

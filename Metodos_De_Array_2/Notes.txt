@@ -1,0 +1,57 @@
+In this class we are going to learn 
+about some methods that doesn't 
+modify the original array.
+
+The firts method is: 
+-> map()
+
+Creates a new arrays a partir
+of another array.
+
+-> Original = [1,2,3,4,5]
+-> Method_Array = [2,4,6,8,10]
+
+The second one is:
+-> forEach()
+
+It's similar to map() method but 
+the differences is that doesn't 
+return anything. But the arrow 
+function still working.
+
+The third one is:
+-> filter()
+
+Creates anew array but based on 
+a condition.
+
+-> Original = [2, 4, 5, 7, 9, 11]
+-> filter_Method = [5, 7, 11]
+
+The fourth one is:
+-> reduce()
+
+Reduce the array on to a value.
+
+-> Original = [1, 2, 3, 4]
+-> reduce_Method = 10
+
+The fifth one is:
+-> find()
+
+Return the firts value that is true 
+in a condition.
+
+-> Original = [12, 34, 56, 78, 90]
+-> find_Method = 78
+
+The sixth one is:
+-> findIndex()
+
+It's like the find method but returns
+the INDEX of the firts value thats true 
+to the condition.
+
+-> Original = [12, 34, 56, 78, 90]
+-> findIndex_Method = 3
+

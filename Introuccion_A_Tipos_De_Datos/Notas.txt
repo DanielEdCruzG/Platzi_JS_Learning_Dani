@@ -1,0 +1,31 @@
+Se habla sobre los tipos de datos en javascript:
+
+Existen 10 tipos de datos divididos en 2 grupos:
+
+Los de tipo primitivo:
+String, number, boolean, null, undefined, symbol,
+bigint.
+
+Son valores inmutables y se pasan por valor.
+Inmutabilidad: Que NO cambia el valor original.
+
+Aunque se le da un nuevo valor a la variable, 
+sin necesidad de cambiar el valor original, si 
+es algo raro de entender.
+Pero según lo entiendo al crear un nuevo valor 
+de la variable, si se crea una variable que clone
+la que vamos a reasignar el valor se mantendra 
+con el valor con el que clonamos la variable.
+
+Es decir, si yo tengo que X = 10; Y luego digo que
+Y = X; Eso querria decir que por consiguiente el 
+valor de Y es de: 10. Y aunque yo después le 
+reasigne el valor de 20 a X, es decir, X = 20, 
+el valor de Y va a seguir siendo 10.
+
+
+Los de tipo complejo:
+Object, array, function.
+
+Son valores mutables y se pasan por referencia.
+Mutabilidad: Que SI cambia el valor original.

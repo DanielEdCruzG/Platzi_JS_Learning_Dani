@@ -1,0 +1,27 @@
+En la clase 6 se vizualizaron los diferentes tipos de datos.
+Primero identificamos que para javascript no hay una clara
+diferencia entre un número decimal y un número entero pues 
+javascript los toma como si fueran del mismo tipo (Number).
+
+Luego, pudimos observar las diferentes operaciones básicas
+como lo son: Suma, resta, multiplicación y división.
+
+Siguiente a eso vimos 2 tipos de operaciones adicionales: 
+Modulo: % -> Sirve para saber el residuo de una división.
+Exponenciación: ** -> Sirve para potencias.
+
+También vimos la forma de notación cientifica:
+e -> 5e3: Estamos diciendo que al valor de 5
+debemos de multiplicarlo por 10^3.
+
+Por cierto, el "===" compara 2 aspectos: El valor de la
+variable y el tipo de variable. Así que funciona basicamente
+igual que un comprarador normal pero que tiene en cuenta
+el tipo de variable que se comprara.
+
+Buien, a la hora de realizar evaluión de decimales tipo, 3/2
+javascript puede proporcionar un número un tanto exagerado 
+por lo cual se suele utilizar el método: 
+.tofixed("Acá va la cantidad de decimales. ")
+
+Operaciones avanzadas: Raíz^2, valor absoluto, número ramdom.

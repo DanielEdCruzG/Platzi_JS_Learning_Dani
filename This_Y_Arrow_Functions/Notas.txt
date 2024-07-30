@@ -1,0 +1,44 @@
+Entonces, tenemos que si la variable 
+que queremos llamar se encuentra de forma
+interna la llamamos con el this. Esto se 
+puede realizar debido a que estamos 
+llamando una función dentro de un objeto,
+lo cual permite acceder a dichos valores.
+A esto se le llama implicit binding.
+
+Continuando, para modificar los contextos 
+podermos hacer uso de 3 métodos:
+Blind: Creareamos una variable en la cual 
+guardaremos la NUEVA función que nos va 
+retornar este método para así tener tanto
+el contexto como los parámetros ya incluidos.
+Call: Modificaremos el contexto de la función
+para agregarle el contexto que necesitamos y 
+de paso agregaremos los parámetros para el 
+funcionamiento de dicha función, es decir, 
+la función creada se mantiene.
+Apply: Acá le pasamos el contexto necesario, 
+pero, para pasarle los parámetros debemos de
+crear una variable array que contenga 
+dichos parámetros.
+
+Arrow Funtions and Lexical binding
+La funciones "arrow" se defien similar a como 
+definimos una función dentro de una variable.
+
+const Variales_Que_Se_Cree_Funcion = funtion () {}
+
+Sin embargo hay pequeñas variaciones: Se quita 
+la palabra función y se agrega la fecha al lado de 
+los parametros. 
+Nota: Pueden ser explicitas (Cuando dentro de llaves
+llaves llevan un return) o implictas (cuando van sin 
+llaves).
+
+const Arrow_Funtion_Implicit = (parameters) =>  x  (Implicita)
+const Arrow_Funtion_Explicit = (parameters) => { return ...} (Explicita)
+
+El lexical binding es: Basicamente cuando 
+usamos el .this, esto ya que nos permite
+acceder a una variable de instancia local 
+a X objeto.

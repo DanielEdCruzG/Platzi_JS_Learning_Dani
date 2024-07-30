@@ -1,0 +1,13 @@
+Esta es una clase practica: 
+
+Vamos a crear objetos chicas superpoderosas:
+Basicamente creamos ua función cosntructora 
+que me permitiera crear chichas superpoderosas.
+
+También aprendimos la sintaxís de la condicional
+ternaria:
+
+Condición           True =  ↓        False:  ↓
+${this.is_Leader ? 'Leader: Yes' : 'Leader: No'}.`
+Este símbolo  -->? índica que es una condicional 
+ternaria.

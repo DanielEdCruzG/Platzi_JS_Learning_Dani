@@ -1,0 +1,13 @@
+Type Casting and Coertion (Conversión de datos)
+
+Existen diferentes lenguajes de programación:
+
+Compilados: El código es traducido antes de la 
+ejecución del programa.
+
+Interpretados: Se va traduciendo el código a 
+medida que se ejecuta.
+
+Chequeo de tipos: 
+Compilados -> Checkeo estático de tipos.
+Interpretados -> Checkeo dinámico de tipos.

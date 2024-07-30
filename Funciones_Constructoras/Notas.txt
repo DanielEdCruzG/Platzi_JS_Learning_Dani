@@ -1,0 +1,24 @@
+Antes de ver funciones contructoras
+entedimos que el construir varios 
+objetos por separado hace dificíl 
+el mantenimiento, aumenta la 
+complejidad y viola los principios
+de diseño (DRY) 
+[Dont Repeat Yourself]
+
+¿Cómo se crean las funciones 
+constructoras?
+
+function Edificio (build_Name) {
+    this.name
+}
+
+const colpatria_Build = new Edificio('Colpatria')
+console.log(colpatria_Build)
+
+const Edificios = name => ({ 
+    name: name 
+})
+
+const empire_State_Build = Edificios('Empire State')
+console.log(empire_State_Build)

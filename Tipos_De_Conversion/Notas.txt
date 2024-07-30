@@ -1,0 +1,11 @@
+En esta clase vamos a ver los tipos de
+datos booleanos:
+
+Existen 2 tipos de conversión, la implicita
+y la explicita:
+
+Implícitas: Cuando se realiza una operación que 
+el sistema interpreta como V(T) o F.
+
+Explicitas: Cuando el usuario es el que le dice 
+al sistema el valor que debe tomar V(T) o F.

@@ -1,0 +1,11 @@
+Vamos a ver los bucles forEach, for in, for of.
+
+forEach itera cada uno de los elementos de una lista.
+Se crea una arrow function que contiene el código a 
+ejecutar por cada uno de los elementos dentro de una 
+lista. Este es un método de los arrays.
+
+forOf se utiliza para objetos iterables como Arrays 
+y strings. Yo creo que su mayor utilidad sería con 
+los strings.
+

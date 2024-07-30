@@ -1,0 +1,4 @@
+Aclaraciones de paso por valor y paso por referencia:
+
+- Datos primitivos: Paso por valor.
+- Datos Complejos: Paso por referencia.
